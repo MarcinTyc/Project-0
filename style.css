@@ -30,6 +30,7 @@ body {
 }
 .header-text h1 {
 	margin-bottom: 10px;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -64,6 +65,65 @@ body {
 .nav-item a:hover {
 	color: rgba(0, 175, 219, 0.877);
 }
+
+/* main */
+
+.top{
+	background: url('./img/kawa.jpg');
+	background-size: cover;
+	background-position: 0% 20%;
+}
+.middle{
+	background: url('./img/startup-g586858830_1920.jpg');
+	background-size: cover;
+	background-position: 0% 20%;
+}
+.bottom{
+	background: url('./img/art-g2a70ea67c_1920.jpg');
+	background-size: cover;
+	background-position: 0% 20%;
+}
+main h1{
+	text-align: center;
+}
+
+.center{
+	position: relative;
+	margin: 40px auto;
+	/* margin-bottom: 40px; */
+	width: 50%;
+	height: 200px;
+	border-radius: 40px 0;
+}
+
+
+
+.main-bg{
+	position: absolute;
+	bottom: 0%;
+	height: 100px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(28, 29, 31, 0.6);
+
+
+}
+
+.main-text{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+/* .top{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 200px;
+	border: 2px solid red;
+} */
 
 /* footer*/
 
