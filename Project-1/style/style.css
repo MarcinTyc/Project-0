@@ -147,6 +147,9 @@ footer {
 	color: rgba(0, 175, 219, 0.877);
 }
 
+
+/* podstrony */
+
 td{
 	border: 2px solid black;
 	
@@ -155,14 +158,15 @@ table{
 	margin: 0 auto;
 }
 .list{
-	display: in;
 	margin: 0 auto;
+	width: 200px;
+	
 }
 
-.contact p{
-	margin-bottom: 10px ;
+.contact{
 	text-align: center;
 }
+
 .contact i{
-margin-right: 15px;
+	margin-right: 22px;
 }
